@@ -1,39 +1,34 @@
 ---
-title: "AlphabetJS: The latest and greatest Javascript framework"
+title: "Builder: Framework for building measurement applications with superb UX"
 ---
 
-## Inops magnis Acrisius remisit Circes
+## Introduction
+ 
 
-Lorem markdownum *formasque* terram, fatum adnuit memores, stipulis
-virgine,
-ullo vires, potiere proles. Modo [nec Aesacon](http://gifctrl.com/) et
-vultum
-praeter fata gemitus panda. Factaque sibi repressit saltem, flammaeque
-ille per
-et opus flecti tellus inter: curru sidus. O iunxit ita erat, frondes,
-hac proles
-inritaturque?
+Builder is a tool to help you build your measurement tool. Simple on the outside, robust on the inside. It encourages you to help the user focus on their task. 
 
-## Sed videt vestem vagatur
+Here's the main application window. You can drop any of the buttons if you like.
 
-Palato rubentis enim, ora fontes lunaria, ventis iacebant pariter. Illa
-latet
-primae concedimus factis, animo ab nec vagantem praemia sustollit.
-Secunda
-detque ecce, sua vixque fontes *quantam* aede.
+Create new project window. There are two pages here. The first page shows general settings for the project. 
 
-## Cuique in nullum futuri
+The second page is for your custom parameters. If you like, the layout here can be entirely customized by creating your own .ui file.
 
-Amphitryoniaden sanguine et nefas lactentis iuvencae scit? Venis et dedi
-hoc
-thalamoque palmite fata, nec tot. Procorum super [patre aranea
-passis](http://reddit.com/r/thathappened) et regemque inque dedimus
-[haerent
-lumina ponunt](http://stoneship.org/), Rhodopeius lacertis! Conceperat
-tellus:
-hunc id nymphe en adest evolvere? Auro nescio extemplo triones et
-sceleratus
-queruntur inpavidus ab suos concutit, Ionio aut, de quo cinisque.
+Here's a project open in the main application window. 
+
+## Concept
+
+Builder can be fully branded into your own product. The product that SoMuchData was built from can be found here. SoMuchData is time tested and usability verified. Usability testing of your final customized product 
+
+You can customize everything where it counts. 
+
+LCD screens: Can be dynamically changed at any time using signals and slots?
+- ongelma: koko pitäisi olla dynaamisempi
+
+The core functionality is in the testing app and the reporting app. These too can be renamed to whatever you want.
+
+## Get it now
+Download demo and sign up to get it when it's available.
+
 
 ```javascript
 import Typography from 'typography'
@@ -62,24 +57,3 @@ if (process.env.NODE_ENV !== 'production') {
 
 export default typography
 ```
-
-## Diu fas tractaque Tethyn vidi exigere
-
-Aenea inque est flexo armos et bovis! Naides alta vocisque videt fit
-cervum
-elusam Macareus vicisse illis unguibus. Multorumque tumulo
-**praetemptatque
-occidit** ingentique et summas Nili virgo vaticinata facinus positae
-vestes,
-*exstinguere iuvat* Lycaona postquam.
-
-- Multaque in coloque
-- Emicuit errandum
-- Mitior ego verbis interdum occupat feruntur
-- Parili Meleagros fluit et timorem
-
-Gemit petit, cingentia quis carens, duxere es sortem corpora quamvis?
-**Palmis
-visa**, nec deo fuit Amphissos, et sprevere Acmona illa habuissem
-**asper**. Et
-[nemus](http://reddit.com/r/thathappened) Iunone: et deae!
