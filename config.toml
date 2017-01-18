@@ -1,6 +1,6 @@
 siteTitle="Builder"
 #baseColor = "#884499"
-baseColor = "#ff0000"
+baseColor = "#cc0000"
 linkPrefix = "/builder-site"
 docPages = [
   "/docs/",
