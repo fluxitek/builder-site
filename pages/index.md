@@ -5,7 +5,9 @@ title: "Builder: Framework for building measurement applications with superb UX"
 ## Introduction
  
 
-Builder is a tool to help you build your measurement tool. Simple on the outside, robust on the inside. It encourages you to help the user focus on their task. 
+Builder is a tool to help you build your measurement tool. Simple on the outside, robust on the inside. 
+
+The framework explicitly encourages you to allow the user focus on their task. 
 
 Here's the main application window. You can drop any of the buttons if you like.
 
