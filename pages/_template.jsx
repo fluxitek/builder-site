@@ -64,7 +64,7 @@ module.exports = React.createClass({
                 </Link>
               </Span>
               <Span columns={8} last>
-                <a
+<!--                <a
                   style={{
                     float: 'right',
                     color: colors.fg,
@@ -74,7 +74,7 @@ module.exports = React.createClass({
                   href="https://github.com/gatsbyjs/gatsby"
                 >
                   Github
-                </a>
+                </a>-->
                 <Link
                   to={prefixLink('/examples/')}
                   style={{
