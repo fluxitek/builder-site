@@ -64,17 +64,7 @@ module.exports = React.createClass({
                 </Link>
               </Span>
               <Span columns={8} last>
-<!--                <a
-                  style={{
-                    float: 'right',
-                    color: colors.fg,
-                    textDecoration: 'none',
-                    marginLeft: rhythm(1/2),
-                  }}
-                  href="https://github.com/gatsbyjs/gatsby"
-                >
-                  Github
-                </a>-->
+
                 <Link
                   to={prefixLink('/examples/')}
                   style={{
