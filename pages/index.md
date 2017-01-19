@@ -1,5 +1,7 @@
 ---
-title: "Builder: Framework for building measurement applications with superb UX"
+title: "Builder: Framework for building 
+measurement applications
+with superb UX"
 ---
 
 ## Introduction
