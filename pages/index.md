@@ -1,5 +1,5 @@
 ---
-title: "Builder: Framework for building 
+title: "Framework for building 
 measurement applications
 with superb UX"
 ---
