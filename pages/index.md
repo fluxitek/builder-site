@@ -7,7 +7,8 @@ with superb UX"
 ## Introduction
  
 
-Builder is a library/framework to help you build Desktop apps. It provides 
+Builder is a library/framework to help you build Desktop measurement apps. It provides 
+
 * GUI with your custom elements
  * Calibration
  * Measurement and device control / positioning
@@ -15,7 +16,7 @@ Builder is a library/framework to help you build Desktop apps. It provides
 * installer if you are on Windows, 
 * database with your custom structure
 
-Simple on the outside, robust on the inside. 
+Simple on the outside, robust on the inside, Builder was originally built for industrial materials testing. 
 
 The framework explicitly encourages you to allow the user focus on their task. 
 
