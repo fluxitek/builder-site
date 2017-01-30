@@ -2,7 +2,10 @@
 title: Introduction
 ---
 
-Builder is a framework for building measurement applications
+Builder is a framework for building measurement applications.
+
+Define measurement parameter fields + curves and result values to show. Create
+reports the way you want them, integrate to Excel and CSV.
 
 Getting data in
 ---------------

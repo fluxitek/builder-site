@@ -1,15 +1,12 @@
 ---
-title: "Measurement apps, in a snap - with superb UX"
+title: "Measurement apps, in a snap - with proven UX"
 ---
 
 Introduction
 ------------
 
-**Create your desktop application for any measurement**. Define custom
-parameters, curves, and result values to show. Create reports the way you want
-them, integrate to Excel and CSV.
-
-Builder is a framework for building measurement apps. It provides
+**Create your desktop application for any measurement**. Builder is a framework
+for building measurement apps. It provides
 
 -   GUI with your custom elements
 
@@ -21,7 +18,8 @@ Builder is a framework for building measurement apps. It provides
 
 -   installer if you are on Windows,
 
--   database with your custom structure (defaults to SQLite)
+-   database with your custom structure (defaults to SQLite, everything Qt
+    supports is easily available)
 
 Simple on the outside, robust on the inside, Builder was originally built for
 industrial materials testing.
@@ -39,27 +37,31 @@ Here's a project open in the main application window.
 Usage: Getting started
 ----------------------
 
-1.  Include builder headers
+ 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c++
+Prerequisites: Qt and Qt Creator, Builder DLLs and header files
+
+1. Include builder headers
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 #include builder/builder.h
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Instantiate global config for current measurement app
+2. Instantiate global config for current measurement app
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 BAppConfig appConfig;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Define one or more measurement
+3. Define one or more measurement
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 Measurement m;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Instantiate some parameter field data
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 // Create parameter, give it field name for db fields
 Param param;
 param.fieldName="initialForce";
@@ -73,7 +75,7 @@ Instantiate real-time value dsplays
 
 Add all data objects to the Measurement object
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 m.addParam(param);
 m.addCurve(curve);
 m.addLCDNumber(display);
@@ -81,13 +83,13 @@ m.addLCDNumber(display);
 
 Add each measurement object to app global config
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 appConfig.addMeasurement(m);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Create Control process and UI
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ c++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 // bind process to UI
 tester.setProcess(process);
 tester.show();
