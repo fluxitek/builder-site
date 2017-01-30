@@ -1,5 +1,5 @@
 ---
-title: "Measurement apps, in a snap - with proven UX"
+title: "Measurement apps, in a snap - with state-of-the-art UX"
 ---
 
 Introduction
@@ -37,23 +37,32 @@ Here's a project open in the main application window.
 Usage: Getting started
 ----------------------
 
- 
-
 Prerequisites: Qt and Qt Creator, Builder DLLs and header files
 
-1. Include builder headers
+Key concepts/Classes:
+
+-   BConfig is global config of your app. All configuration related to how your
+    app is generated, is stored in it.
+
+-   Measurements are a way to define different measurements to be used in the
+    same app
+
+-   Parameters, Curves, LCDNumbers and ResultFields are defined for each
+    Measurement
+
+**Let’s get started.** Include builder headers:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 #include builder/builder.h
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-2. Instantiate global config for current measurement app
+Instantiate global config for current measurement app
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
-BAppConfig appConfig;
+BConfig appConfig;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3. Define one or more measurement
+Define one or more measurement
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cpp
 Measurement m;
@@ -95,7 +104,10 @@ tester.setProcess(process);
 tester.show();
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[More details]
+Launch app in Qt Creator and you should see this. You will get recorded data
+until you define your own data sources.
+
+[Next steps]
 
 Pricing
 -------
