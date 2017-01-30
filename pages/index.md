@@ -1,6 +1,5 @@
 ---
-title: "Framework for building 
-measurement applications
+title: "Measurement apps, in a snap
 with superb UX"
 ---
 
