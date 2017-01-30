@@ -1,6 +1,5 @@
 ---
-title: "Measurement apps, in a snap
-with superb UX"
+title: "Measurement apps, in a snap - with superb UX"
 ---
 
 ## Introduction
