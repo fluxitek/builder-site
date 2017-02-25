@@ -1,9 +1,17 @@
 ---
-title: "Measurement apps, in a snap - with state-of-the-art UX"
+title: "The Most Boring Testing Apps, Ever!"
 ---
 
 Introduction
 ------------
+
+Generate measurement apps, in a snap. Like this:
+
+The UI is boring - in a good way. Immediately familiar to all users. So true.
+
+You focus on making your measurement work. Plug it into Builder, and your
+customers get state-of-the-art UX for free. No need to learn a complex UI,
+unlike competitors
 
 **Create your desktop application for any measurement**. Builder is a framework
 for building measurement apps. It provides
